@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.header-menu{
+    display: flex;
+    position: fixed;
+    width: 100%; /*largura*/
+    height: 60px; /*altura*/
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    background-color: darkorchid;
+}
+
+.header-menu nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.lista-menu li>a {
+    color: white;
+    font-size: 18px; /*tamanho da fonte*/
+    text-decoration: inherit; /*para tirar a linha de link */
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    background-color: white;
+}
+
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo{
+    font-size: 36px;
+    color: deeppink;
+    font-weight: 700;
+    height: 45px;
+}
+
+.profissao{
+    color: darkorchid;
+    height: 60px;
+}
+
+.texto-sobre{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color: deeppink    
+}
+
+.section-lista{
+    display: flex;
+    margin-bottom: 200px;
+    flex-direction: column;
+}
+
+.lista-item{
+    padding: 40px;
+}
+
+.lista-item ul li{
+    margin-bottom: 32px;
+}
+
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: darkmagenta;
+}
+
+.lista-local{
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 300;
+    line-height: 20px;
+    color: black;
+}
+
+.formacao{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer {
+    margin-right: auto;
+    margin-left: auto; 
+    max-width: 960px;
+    padding-right: 10px; 
+    padding-left: 10px; 
+    width: 100%; 
+}
+
+.footer {
+    background-color: darkorchid;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    text-decoration:none;
+    color: white;
+}
+
+.lista-footer li {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
